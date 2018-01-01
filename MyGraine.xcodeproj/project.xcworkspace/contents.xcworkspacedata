@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:/Users/petemaiser/Programs/MyGraine/MyGraine"
+      name = "MyGraine">
+      <FileRef
+         location = "group:AppDelegate.h">
+      </FileRef>
+      <FileRef
+         location = "group:AppDelegate.m">
+      </FileRef>
+      <Group
+         location = "group:Assets.xcassets"
+         name = "Assets.xcassets">
+         <Group
+            location = "group:AppIcon.appiconset"
+            name = "AppIcon.appiconset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:first.imageset"
+            name = "first.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:first.pdf">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:second.imageset"
+            name = "second.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:second.pdf">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:Base.lproj"
+         name = "Base.lproj">
+         <FileRef
+            location = "group:LaunchScreen.storyboard">
+         </FileRef>
+         <FileRef
+            location = "group:Main.storyboard">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Info.plist">
+      </FileRef>
+      <Group
+         location = "group:Model Objects"
+         name = "Model Objects">
+      </Group>
+      <Group
+         location = "group:Model Stores"
+         name = "Model Stores">
+      </Group>
+      <Group
+         location = "group:Supporting Files"
+         name = "Supporting Files">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:View Controllers"
+         name = "View Controllers">
+         <FileRef
+            location = "group:FirstViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:FirstViewController.m">
+         </FileRef>
+         <FileRef
+            location = "group:SecondViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:SecondViewController.m">
+         </FileRef>
+      </Group>
+   </Group>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>
