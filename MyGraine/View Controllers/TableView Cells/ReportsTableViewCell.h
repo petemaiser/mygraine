@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  ReportsTableViewCell.h
 //  MyGraine
 //
 //  Created by Pete Maiser on 1/1/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface ReportsTableViewCell : UITableViewCell
 
 @end
-
