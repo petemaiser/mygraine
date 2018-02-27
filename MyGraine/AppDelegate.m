@@ -8,6 +8,11 @@
 
 #import "AppDelegate.h"
 
+// Remove NSLog when compiling for non-debug or non-simulator running
+#if !defined(DEBUG) || !(TARGET_IPHONE_SIMULATOR)
+#define NSLog(...)
+#endif
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +22,25 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    SettingsStore *sStore = [[SettingsStore alloc] init];
+    self.settingsStore = [NSKeyedUnarchiver unarchiveObjectWithFile:[sStore archiveFile]];
+    if (self.settingsStore) {
+        NSLog(@"Object with class %@ initialized from archive file.", NSStringFromClass([sStore class]));
+    } else if (sStore) {
+        self.settingsStore = sStore;
+        NSLog(@"Object with class %@ newly initialized.", NSStringFromClass([sStore class]));
+    }
+    
+    DataStore *dStore = [[DataStore alloc] init];
+    self.dataStore = [NSKeyedUnarchiver unarchiveObjectWithFile:[dStore archiveFile]];
+    if (self.dataStore) {
+        NSLog(@"Object with class %@ initialized from archive file.", NSStringFromClass([dStore class]));
+    } else if (dStore) {
+        self.dataStore = dStore;
+        NSLog(@"Object with class %@ newly initialized.", NSStringFromClass([dStore class]));
+    }
+    
     return YES;
 }
 
@@ -30,6 +54,9 @@
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    
+    [self.settingsStore archive];
+    [self.dataStore archive];
 }
 
 

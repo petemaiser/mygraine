@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B518B0131FFAF0B600192D2F /* Mantle in Resources */ = {isa = PBXBuildFile; fileRef = B518B0121FFAF0B600192D2F /* Mantle */; };
+		B531BCB0202694350072E57E /* MyGModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B531BCAB202694350072E57E /* MyGModel.m */; };
+		B531BCB1202694350072E57E /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B531BCAD202694350072E57E /* DataStore.m */; };
+		B531BCB2202694350072E57E /* SettingsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B531BCAF202694350072E57E /* SettingsStore.m */; };
+		B531BCB5202694890072E57E /* Month.m in Sources */ = {isa = PBXBuildFile; fileRef = B531BCB4202694890072E57E /* Month.m */; };
+		B531BCB8202694A10072E57E /* Day.m in Sources */ = {isa = PBXBuildFile; fileRef = B531BCB7202694A10072E57E /* Day.m */; };
+		B531BCBB202695200072E57E /* Template.m in Sources */ = {isa = PBXBuildFile; fileRef = B531BCBA202695200072E57E /* Template.m */; };
+		B531BCC2202696740072E57E /* TemplateMeadowbrook.m in Sources */ = {isa = PBXBuildFile; fileRef = B531BCC1202696740072E57E /* TemplateMeadowbrook.m */; };
 		B53E32AC1FFB037900681170 /* DailyRoutineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E32AB1FFB037900681170 /* DailyRoutineTableViewController.m */; };
-		B53E32AF1FFB03C800681170 /* HeadacheLogTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E32AE1FFB03C800681170 /* HeadacheLogTableViewController.m */; };
-		B53E32B21FFB041200681170 /* PreventionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E32B11FFB041200681170 /* PreventionTableViewController.m */; };
 		B53E32B51FFB044100681170 /* ReportsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E32B41FFB044100681170 /* ReportsTableViewController.m */; };
-		B53E32BC1FFB06AD00681170 /* HeadacheLogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E32BB1FFB06AD00681170 /* HeadacheLogTableViewCell.m */; };
-		B53E32BF1FFB06CC00681170 /* PreventionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E32BE1FFB06CC00681170 /* PreventionTableViewCell.m */; };
-		B53E32C21FFB06E100681170 /* ReportsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E32C11FFB06E100681170 /* ReportsTableViewCell.m */; };
+		B55F45AE1FFC8799000A68C1 /* HeadacheDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55F45AD1FFC8799000A68C1 /* HeadacheDetailTableViewController.m */; };
+		B55F45B91FFC8953000A68C1 /* ReportDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55F45B81FFC8953000A68C1 /* ReportDetailTableViewController.m */; };
+		B55F45BC1FFC89BB000A68C1 /* HeadacheHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55F45BB1FFC89BB000A68C1 /* HeadacheHelpViewController.m */; };
+		B57C52712002961000ED1F40 /* HeadachesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57C52702002961000ED1F40 /* HeadachesTableViewController.m */; };
+		B57C5274200297B300ED1F40 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57C5273200297B300ED1F40 /* SettingsTableViewController.m */; };
 		B59B5B451FFAA30E0069F46E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B59B5B441FFAA30E0069F46E /* AppDelegate.m */; };
 		B59B5B4E1FFAA30E0069F46E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59B5B4C1FFAA30E0069F46E /* Main.storyboard */; };
 		B59B5B501FFAA30E0069F46E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59B5B4F1FFAA30E0069F46E /* Assets.xcassets */; };
@@ -22,6 +28,21 @@
 		B59B5B561FFAA30E0069F46E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B59B5B551FFAA30E0069F46E /* main.m */; };
 		B59B5B5E1FFAA3330069F46E /* README in Resources */ = {isa = PBXBuildFile; fileRef = B59B5B5C1FFAA3320069F46E /* README */; };
 		B59B5B5F1FFAA3330069F46E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B59B5B5D1FFAA3320069F46E /* LICENSE */; };
+		B5E4711A2045028D005BA47A /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E471192045028D005BA47A /* Mantle.framework */; };
+		B5E720A3202F987600842064 /* LabelButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5E720A2202F987600842064 /* LabelButtonTableViewCell.xib */; };
+		B5E720A8202FA11400842064 /* DailyRoutineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E720A7202FA11400842064 /* DailyRoutineTableViewCell.m */; };
+		B5E720AB202FA20800842064 /* HeadachesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E720AA202FA20800842064 /* HeadachesTableViewCell.m */; };
+		B5E720AE202FA29100842064 /* HeadacheTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E720AD202FA29100842064 /* HeadacheTableViewCell.m */; };
+		B5E720B1202FA44C00842064 /* ReportsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E720B0202FA44C00842064 /* ReportsTableViewCell.m */; };
+		B5E720B5202FA7A200842064 /* LabelPickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E720B3202FA7A200842064 /* LabelPickerTableViewCell.m */; };
+		B5E720B6202FA7A200842064 /* LabelPickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5E720B4202FA7A200842064 /* LabelPickerTableViewCell.xib */; };
+		B5E720B9202FA7C100842064 /* LabelButtonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E720B8202FA7C100842064 /* LabelButtonTableViewCell.m */; };
+		B5E720BD202FA8B000842064 /* LabelThreeButtonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E720BB202FA8B000842064 /* LabelThreeButtonTableViewCell.m */; };
+		B5E720BE202FA8B000842064 /* LabelThreeButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5E720BC202FA8B000842064 /* LabelThreeButtonTableViewCell.xib */; };
+		B5E720C2202FA93800842064 /* LabelFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E720C0202FA93800842064 /* LabelFieldTableViewCell.m */; };
+		B5E720C3202FA93800842064 /* LabelFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5E720C1202FA93800842064 /* LabelFieldTableViewCell.xib */; };
+		B5E720C7202FA97100842064 /* LabelSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E720C5202FA97100842064 /* LabelSwitchTableViewCell.m */; };
+		B5E720C8202FA97100842064 /* LabelSwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5E720C6202FA97100842064 /* LabelSwitchTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,21 +59,34 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B518B0121FFAF0B600192D2F /* Mantle */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Mantle; sourceTree = "<group>"; };
+		B531BCAA202694350072E57E /* DataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataStore.h; path = "MyGraine/Model Stores/DataStore.h"; sourceTree = SOURCE_ROOT; };
+		B531BCAB202694350072E57E /* MyGModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyGModel.m; path = "MyGraine/Model Objects/MyGModel.m"; sourceTree = SOURCE_ROOT; };
+		B531BCAC202694350072E57E /* MyGModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyGModel.h; path = "MyGraine/Model Objects/MyGModel.h"; sourceTree = SOURCE_ROOT; };
+		B531BCAD202694350072E57E /* DataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataStore.m; path = "MyGraine/Model Stores/DataStore.m"; sourceTree = SOURCE_ROOT; };
+		B531BCAE202694350072E57E /* SettingsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsStore.h; path = "MyGraine/Model Stores/SettingsStore.h"; sourceTree = SOURCE_ROOT; };
+		B531BCAF202694350072E57E /* SettingsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsStore.m; path = "MyGraine/Model Stores/SettingsStore.m"; sourceTree = SOURCE_ROOT; };
+		B531BCB3202694890072E57E /* Month.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Month.h; sourceTree = "<group>"; };
+		B531BCB4202694890072E57E /* Month.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Month.m; sourceTree = "<group>"; };
+		B531BCB6202694A10072E57E /* Day.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day.h; sourceTree = "<group>"; };
+		B531BCB7202694A10072E57E /* Day.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day.m; sourceTree = "<group>"; };
+		B531BCB9202695200072E57E /* Template.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Template.h; sourceTree = "<group>"; };
+		B531BCBA202695200072E57E /* Template.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Template.m; sourceTree = "<group>"; };
+		B531BCC0202696740072E57E /* TemplateMeadowbrook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TemplateMeadowbrook.h; path = "MyGraine/Model Objects Custom/TemplateMeadowbrook.h"; sourceTree = SOURCE_ROOT; };
+		B531BCC1202696740072E57E /* TemplateMeadowbrook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TemplateMeadowbrook.m; path = "MyGraine/Model Objects Custom/TemplateMeadowbrook.m"; sourceTree = SOURCE_ROOT; };
 		B53E32AA1FFB037900681170 /* DailyRoutineTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DailyRoutineTableViewController.h; sourceTree = "<group>"; };
 		B53E32AB1FFB037900681170 /* DailyRoutineTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyRoutineTableViewController.m; sourceTree = "<group>"; };
-		B53E32AD1FFB03C800681170 /* HeadacheLogTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadacheLogTableViewController.h; sourceTree = "<group>"; };
-		B53E32AE1FFB03C800681170 /* HeadacheLogTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadacheLogTableViewController.m; sourceTree = "<group>"; };
-		B53E32B01FFB041200681170 /* PreventionTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreventionTableViewController.h; sourceTree = "<group>"; };
-		B53E32B11FFB041200681170 /* PreventionTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreventionTableViewController.m; sourceTree = "<group>"; };
 		B53E32B31FFB044100681170 /* ReportsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportsTableViewController.h; sourceTree = "<group>"; };
 		B53E32B41FFB044100681170 /* ReportsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReportsTableViewController.m; sourceTree = "<group>"; };
-		B53E32BA1FFB06AD00681170 /* HeadacheLogTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadacheLogTableViewCell.h; sourceTree = "<group>"; };
-		B53E32BB1FFB06AD00681170 /* HeadacheLogTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadacheLogTableViewCell.m; sourceTree = "<group>"; };
-		B53E32BD1FFB06CC00681170 /* PreventionTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreventionTableViewCell.h; sourceTree = "<group>"; };
-		B53E32BE1FFB06CC00681170 /* PreventionTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreventionTableViewCell.m; sourceTree = "<group>"; };
-		B53E32C01FFB06E100681170 /* ReportsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportsTableViewCell.h; sourceTree = "<group>"; };
-		B53E32C11FFB06E100681170 /* ReportsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReportsTableViewCell.m; sourceTree = "<group>"; };
+		B55F45AC1FFC8799000A68C1 /* HeadacheDetailTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadacheDetailTableViewController.h; sourceTree = "<group>"; };
+		B55F45AD1FFC8799000A68C1 /* HeadacheDetailTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadacheDetailTableViewController.m; sourceTree = "<group>"; };
+		B55F45B71FFC8953000A68C1 /* ReportDetailTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportDetailTableViewController.h; sourceTree = "<group>"; };
+		B55F45B81FFC8953000A68C1 /* ReportDetailTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReportDetailTableViewController.m; sourceTree = "<group>"; };
+		B55F45BA1FFC89BB000A68C1 /* HeadacheHelpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadacheHelpViewController.h; sourceTree = "<group>"; };
+		B55F45BB1FFC89BB000A68C1 /* HeadacheHelpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadacheHelpViewController.m; sourceTree = "<group>"; };
+		B57C526F2002961000ED1F40 /* HeadachesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadachesTableViewController.h; sourceTree = "<group>"; };
+		B57C52702002961000ED1F40 /* HeadachesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadachesTableViewController.m; sourceTree = "<group>"; };
+		B57C5272200297B300ED1F40 /* SettingsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		B57C5273200297B300ED1F40 /* SettingsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
 		B59B5B401FFAA30E0069F46E /* MyGraine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGraine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59B5B431FFAA30E0069F46E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B59B5B441FFAA30E0069F46E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +97,30 @@
 		B59B5B551FFAA30E0069F46E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B59B5B5C1FFAA3320069F46E /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		B59B5B5D1FFAA3320069F46E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B5E471192045028D005BA47A /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mantle.framework; path = Carthage/Build/iOS/Mantle.framework; sourceTree = "<group>"; };
+		B5E720A2202F987600842064 /* LabelButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelButtonTableViewCell.xib; sourceTree = "<group>"; };
+		B5E720A6202FA11400842064 /* DailyRoutineTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DailyRoutineTableViewCell.h; sourceTree = "<group>"; };
+		B5E720A7202FA11400842064 /* DailyRoutineTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyRoutineTableViewCell.m; sourceTree = "<group>"; };
+		B5E720A9202FA20800842064 /* HeadachesTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadachesTableViewCell.h; sourceTree = "<group>"; };
+		B5E720AA202FA20800842064 /* HeadachesTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadachesTableViewCell.m; sourceTree = "<group>"; };
+		B5E720AC202FA29100842064 /* HeadacheTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadacheTableViewCell.h; sourceTree = "<group>"; };
+		B5E720AD202FA29100842064 /* HeadacheTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadacheTableViewCell.m; sourceTree = "<group>"; };
+		B5E720AF202FA44C00842064 /* ReportsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportsTableViewCell.h; sourceTree = "<group>"; };
+		B5E720B0202FA44C00842064 /* ReportsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReportsTableViewCell.m; sourceTree = "<group>"; };
+		B5E720B2202FA7A200842064 /* LabelPickerTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelPickerTableViewCell.h; sourceTree = "<group>"; };
+		B5E720B3202FA7A200842064 /* LabelPickerTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelPickerTableViewCell.m; sourceTree = "<group>"; };
+		B5E720B4202FA7A200842064 /* LabelPickerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelPickerTableViewCell.xib; sourceTree = "<group>"; };
+		B5E720B7202FA7C100842064 /* LabelButtonTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelButtonTableViewCell.h; sourceTree = "<group>"; };
+		B5E720B8202FA7C100842064 /* LabelButtonTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelButtonTableViewCell.m; sourceTree = "<group>"; };
+		B5E720BA202FA8B000842064 /* LabelThreeButtonTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelThreeButtonTableViewCell.h; sourceTree = "<group>"; };
+		B5E720BB202FA8B000842064 /* LabelThreeButtonTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelThreeButtonTableViewCell.m; sourceTree = "<group>"; };
+		B5E720BC202FA8B000842064 /* LabelThreeButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelThreeButtonTableViewCell.xib; sourceTree = "<group>"; };
+		B5E720BF202FA93800842064 /* LabelFieldTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelFieldTableViewCell.h; sourceTree = "<group>"; };
+		B5E720C0202FA93800842064 /* LabelFieldTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelFieldTableViewCell.m; sourceTree = "<group>"; };
+		B5E720C1202FA93800842064 /* LabelFieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelFieldTableViewCell.xib; sourceTree = "<group>"; };
+		B5E720C4202FA97100842064 /* LabelSwitchTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelSwitchTableViewCell.h; sourceTree = "<group>"; };
+		B5E720C5202FA97100842064 /* LabelSwitchTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelSwitchTableViewCell.m; sourceTree = "<group>"; };
+		B5E720C6202FA97100842064 /* LabelSwitchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelSwitchTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,23 +128,81 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5E4711A2045028D005BA47A /* Mantle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B531BCA9202694160072E57E /* Model Stores */ = {
+			isa = PBXGroup;
+			children = (
+				B531BCAA202694350072E57E /* DataStore.h */,
+				B531BCAD202694350072E57E /* DataStore.m */,
+				B531BCAE202694350072E57E /* SettingsStore.h */,
+				B531BCAF202694350072E57E /* SettingsStore.m */,
+			);
+			name = "Model Stores";
+			path = "Model Objects";
+			sourceTree = "<group>";
+		};
 		B53E32B61FFB067400681170 /* TableView Cells */ = {
 			isa = PBXGroup;
 			children = (
-				B53E32BA1FFB06AD00681170 /* HeadacheLogTableViewCell.h */,
-				B53E32BB1FFB06AD00681170 /* HeadacheLogTableViewCell.m */,
-				B53E32BD1FFB06CC00681170 /* PreventionTableViewCell.h */,
-				B53E32BE1FFB06CC00681170 /* PreventionTableViewCell.m */,
-				B53E32C01FFB06E100681170 /* ReportsTableViewCell.h */,
-				B53E32C11FFB06E100681170 /* ReportsTableViewCell.m */,
+				B5E720A6202FA11400842064 /* DailyRoutineTableViewCell.h */,
+				B5E720A7202FA11400842064 /* DailyRoutineTableViewCell.m */,
+				B5E720A9202FA20800842064 /* HeadachesTableViewCell.h */,
+				B5E720AA202FA20800842064 /* HeadachesTableViewCell.m */,
+				B5E720AC202FA29100842064 /* HeadacheTableViewCell.h */,
+				B5E720AD202FA29100842064 /* HeadacheTableViewCell.m */,
+				B5E720AF202FA44C00842064 /* ReportsTableViewCell.h */,
+				B5E720B0202FA44C00842064 /* ReportsTableViewCell.m */,
+				B5E720B7202FA7C100842064 /* LabelButtonTableViewCell.h */,
+				B5E720B8202FA7C100842064 /* LabelButtonTableViewCell.m */,
+				B5E720A2202F987600842064 /* LabelButtonTableViewCell.xib */,
+				B5E720BA202FA8B000842064 /* LabelThreeButtonTableViewCell.h */,
+				B5E720BB202FA8B000842064 /* LabelThreeButtonTableViewCell.m */,
+				B5E720BC202FA8B000842064 /* LabelThreeButtonTableViewCell.xib */,
+				B5E720BF202FA93800842064 /* LabelFieldTableViewCell.h */,
+				B5E720C0202FA93800842064 /* LabelFieldTableViewCell.m */,
+				B5E720C1202FA93800842064 /* LabelFieldTableViewCell.xib */,
+				B5E720B2202FA7A200842064 /* LabelPickerTableViewCell.h */,
+				B5E720B3202FA7A200842064 /* LabelPickerTableViewCell.m */,
+				B5E720B4202FA7A200842064 /* LabelPickerTableViewCell.xib */,
+				B5E720C4202FA97100842064 /* LabelSwitchTableViewCell.h */,
+				B5E720C5202FA97100842064 /* LabelSwitchTableViewCell.m */,
+				B5E720C6202FA97100842064 /* LabelSwitchTableViewCell.xib */,
 			);
 			path = "TableView Cells";
+			sourceTree = "<group>";
+		};
+		B55F45AF1FFC87AB000A68C1 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				B53E32AA1FFB037900681170 /* DailyRoutineTableViewController.h */,
+				B53E32AB1FFB037900681170 /* DailyRoutineTableViewController.m */,
+				B57C526F2002961000ED1F40 /* HeadachesTableViewController.h */,
+				B57C52702002961000ED1F40 /* HeadachesTableViewController.m */,
+				B57C5272200297B300ED1F40 /* SettingsTableViewController.h */,
+				B57C5273200297B300ED1F40 /* SettingsTableViewController.m */,
+				B53E32B31FFB044100681170 /* ReportsTableViewController.h */,
+				B53E32B41FFB044100681170 /* ReportsTableViewController.m */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		B55F45B01FFC87B7000A68C1 /* Detail Views */ = {
+			isa = PBXGroup;
+			children = (
+				B55F45AC1FFC8799000A68C1 /* HeadacheDetailTableViewController.h */,
+				B55F45AD1FFC8799000A68C1 /* HeadacheDetailTableViewController.m */,
+				B55F45B71FFC8953000A68C1 /* ReportDetailTableViewController.h */,
+				B55F45B81FFC8953000A68C1 /* ReportDetailTableViewController.m */,
+				B55F45BA1FFC89BB000A68C1 /* HeadacheHelpViewController.h */,
+				B55F45BB1FFC89BB000A68C1 /* HeadacheHelpViewController.m */,
+			);
+			path = "Detail Views";
 			sourceTree = "<group>";
 		};
 		B59B5B371FFAA30E0069F46E = {
@@ -96,7 +212,7 @@
 				B59B5B5C1FFAA3320069F46E /* README */,
 				B59B5B421FFAA30E0069F46E /* MyGraine */,
 				B59B5B411FFAA30E0069F46E /* Products */,
-				B518B0121FFAF0B600192D2F /* Mantle */,
+				B5E471182045028C005BA47A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,8 +227,9 @@
 		B59B5B421FFAA30E0069F46E /* MyGraine */ = {
 			isa = PBXGroup;
 			children = (
-				B59B5B631FFAA3A00069F46E /* Model Objects */,
-				B59B5B621FFAA3930069F46E /* Model Stores */,
+				B5C0A69B202D3B6A002EF624 /* Model Objects */,
+				B5C0A69C202D3BD1002EF624 /* Model Objects Custom */,
+				B531BCA9202694160072E57E /* Model Stores */,
 				B59B5B611FFAA38B0069F46E /* View Controllers */,
 				B59B5B431FFAA30E0069F46E /* AppDelegate.h */,
 				B59B5B441FFAA30E0069F46E /* AppDelegate.m */,
@@ -136,31 +253,43 @@
 		B59B5B611FFAA38B0069F46E /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B55F45AF1FFC87AB000A68C1 /* Tabs */,
+				B55F45B01FFC87B7000A68C1 /* Detail Views */,
 				B53E32B61FFB067400681170 /* TableView Cells */,
-				B53E32AA1FFB037900681170 /* DailyRoutineTableViewController.h */,
-				B53E32AB1FFB037900681170 /* DailyRoutineTableViewController.m */,
-				B53E32AD1FFB03C800681170 /* HeadacheLogTableViewController.h */,
-				B53E32AE1FFB03C800681170 /* HeadacheLogTableViewController.m */,
-				B53E32B01FFB041200681170 /* PreventionTableViewController.h */,
-				B53E32B11FFB041200681170 /* PreventionTableViewController.m */,
-				B53E32B31FFB044100681170 /* ReportsTableViewController.h */,
-				B53E32B41FFB044100681170 /* ReportsTableViewController.m */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
 		};
-		B59B5B621FFAA3930069F46E /* Model Stores */ = {
+		B5C0A69B202D3B6A002EF624 /* Model Objects */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = "Model Stores";
-			sourceTree = "<group>";
-		};
-		B59B5B631FFAA3A00069F46E /* Model Objects */ = {
-			isa = PBXGroup;
-			children = (
+				B531BCAC202694350072E57E /* MyGModel.h */,
+				B531BCAB202694350072E57E /* MyGModel.m */,
+				B531BCB3202694890072E57E /* Month.h */,
+				B531BCB4202694890072E57E /* Month.m */,
+				B531BCB6202694A10072E57E /* Day.h */,
+				B531BCB7202694A10072E57E /* Day.m */,
+				B531BCB9202695200072E57E /* Template.h */,
+				B531BCBA202695200072E57E /* Template.m */,
 			);
 			path = "Model Objects";
+			sourceTree = "<group>";
+		};
+		B5C0A69C202D3BD1002EF624 /* Model Objects Custom */ = {
+			isa = PBXGroup;
+			children = (
+				B531BCC0202696740072E57E /* TemplateMeadowbrook.h */,
+				B531BCC1202696740072E57E /* TemplateMeadowbrook.m */,
+			);
+			path = "Model Objects Custom";
+			sourceTree = "<group>";
+		};
+		B5E471182045028C005BA47A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5E471192045028D005BA47A /* Mantle.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +303,7 @@
 				B59B5B3D1FFAA30E0069F46E /* Frameworks */,
 				B59B5B3E1FFAA30E0069F46E /* Resources */,
 				B59B60851FFAA78F0069F46E /* Embed Frameworks */,
+				B5E4711B2045029E005BA47A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -223,30 +353,69 @@
 			buildActionMask = 2147483647;
 			files = (
 				B59B5B5E1FFAA3330069F46E /* README in Resources */,
+				B5E720B6202FA7A200842064 /* LabelPickerTableViewCell.xib in Resources */,
 				B59B5B531FFAA30E0069F46E /* LaunchScreen.storyboard in Resources */,
+				B5E720BE202FA8B000842064 /* LabelThreeButtonTableViewCell.xib in Resources */,
+				B5E720C8202FA97100842064 /* LabelSwitchTableViewCell.xib in Resources */,
 				B59B5B501FFAA30E0069F46E /* Assets.xcassets in Resources */,
 				B59B5B4E1FFAA30E0069F46E /* Main.storyboard in Resources */,
+				B5E720C3202FA93800842064 /* LabelFieldTableViewCell.xib in Resources */,
+				B5E720A3202F987600842064 /* LabelButtonTableViewCell.xib in Resources */,
 				B59B5B5F1FFAA3330069F46E /* LICENSE in Resources */,
-				B518B0131FFAF0B600192D2F /* Mantle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B5E4711B2045029E005BA47A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Mantle.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Mantle.framework",
+				"$(DERIVED_FILE_DIR)/Mantle.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B59B5B3C1FFAA30E0069F46E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5E720C7202FA97100842064 /* LabelSwitchTableViewCell.m in Sources */,
+				B57C52712002961000ED1F40 /* HeadachesTableViewController.m in Sources */,
+				B5E720A8202FA11400842064 /* DailyRoutineTableViewCell.m in Sources */,
+				B55F45B91FFC8953000A68C1 /* ReportDetailTableViewController.m in Sources */,
+				B5E720B1202FA44C00842064 /* ReportsTableViewCell.m in Sources */,
+				B5E720B9202FA7C100842064 /* LabelButtonTableViewCell.m in Sources */,
+				B531BCB0202694350072E57E /* MyGModel.m in Sources */,
 				B59B5B451FFAA30E0069F46E /* AppDelegate.m in Sources */,
-				B53E32BF1FFB06CC00681170 /* PreventionTableViewCell.m in Sources */,
+				B5E720C2202FA93800842064 /* LabelFieldTableViewCell.m in Sources */,
+				B531BCB1202694350072E57E /* DataStore.m in Sources */,
+				B5E720BD202FA8B000842064 /* LabelThreeButtonTableViewCell.m in Sources */,
+				B5E720AE202FA29100842064 /* HeadacheTableViewCell.m in Sources */,
 				B59B5B561FFAA30E0069F46E /* main.m in Sources */,
-				B53E32C21FFB06E100681170 /* ReportsTableViewCell.m in Sources */,
-				B53E32B21FFB041200681170 /* PreventionTableViewController.m in Sources */,
+				B55F45AE1FFC8799000A68C1 /* HeadacheDetailTableViewController.m in Sources */,
+				B531BCB5202694890072E57E /* Month.m in Sources */,
+				B531BCB2202694350072E57E /* SettingsStore.m in Sources */,
+				B531BCC2202696740072E57E /* TemplateMeadowbrook.m in Sources */,
 				B53E32AC1FFB037900681170 /* DailyRoutineTableViewController.m in Sources */,
-				B53E32BC1FFB06AD00681170 /* HeadacheLogTableViewCell.m in Sources */,
+				B531BCB8202694A10072E57E /* Day.m in Sources */,
+				B55F45BC1FFC89BB000A68C1 /* HeadacheHelpViewController.m in Sources */,
 				B53E32B51FFB044100681170 /* ReportsTableViewController.m in Sources */,
-				B53E32AF1FFB03C800681170 /* HeadacheLogTableViewController.m in Sources */,
+				B5E720B5202FA7A200842064 /* LabelPickerTableViewCell.m in Sources */,
+				B57C5274200297B300ED1F40 /* SettingsTableViewController.m in Sources */,
+				B531BCBB202695200072E57E /* Template.m in Sources */,
+				B5E720AB202FA20800842064 /* HeadachesTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +456,7 @@
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -343,7 +512,7 @@
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -384,6 +553,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5M3EYN9AZR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MyGraine/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -400,6 +573,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5M3EYN9AZR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MyGraine/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
