@@ -5,6 +5,8 @@
 //  Copyright © 2018 Pete Maiser. All rights reserved.
 //
 
+// Super class for MyGraine Model Objects
+
 #import <Foundation/Foundation.h>
 #import <Mantle/Mantle.h>
 

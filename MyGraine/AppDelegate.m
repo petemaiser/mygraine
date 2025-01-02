@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "SettingsStore.h"
+#import "DataStore.h"
 
 // Remove NSLog when compiling for non-debug or non-simulator running
 #if !defined(DEBUG) || !(TARGET_IPHONE_SIMULATOR)
@@ -33,10 +35,12 @@
     }
     
     DataStore *dStore = [[DataStore alloc] init];
-    self.dataStore = [NSKeyedUnarchiver unarchiveObjectWithFile:[dStore archiveFile]];
+    NSString *archiveFile = [dStore archiveFile];
+    self.dataStore = [NSKeyedUnarchiver unarchiveObjectWithFile:archiveFile];
     if (self.dataStore) {
         NSLog(@"Object with class %@ initialized from archive file.", NSStringFromClass([dStore class]));
     } else if (dStore) {
+        [dStore initializeForDate:[[NSDate alloc] init]];
         self.dataStore = dStore;
         NSLog(@"Object with class %@ newly initialized.", NSStringFromClass([dStore class]));
     }

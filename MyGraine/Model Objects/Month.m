@@ -37,20 +37,24 @@
 {
     NSMutableArray *daysList = [[NSMutableArray alloc] init];
     
+    NSDate *date = startDate;
     NSCalendar *calendar = [NSCalendar currentCalendar];
-    NSDateComponents *dateComponentsStart = [calendar components:(NSCalendarUnitMonth) fromDate:startDate];
-    NSDateComponents *dateComponentsAdd = [[NSDateComponents alloc] init];
-    dateComponentsAdd.day = 1;
- 
+    NSDateComponents *dateComponentsAddDay = [[NSDateComponents alloc] init];
+    dateComponentsAddDay.day = 1;
+    
+    NSDateComponents *dateComponentsAddMonth = [[NSDateComponents alloc] init];
+    dateComponentsAddMonth.month = 1;
+    NSDate *dateStop = [calendar dateByAddingComponents:dateComponentsAddMonth toDate:startDate options:0];
+
     for (int i=0; i<=30; i++) {
-        NSDate *date = [calendar dateByAddingComponents:dateComponentsAdd toDate:startDate options:0];
-        NSDateComponents *dateComponentsNew = [calendar components:(NSCalendarUnitMonth) fromDate:date];
-        if (dateComponentsNew.month != dateComponentsStart.month) {
-            break;
-        }
         Day *day = [[Day alloc] initWithDate:date];
         [daysList addObject:day];
-        dateComponentsNew.day += i;
+        NSDate *dateNew = [calendar dateByAddingComponents:dateComponentsAddDay toDate:date options:0];
+        if ([dateNew isEqualToDate:dateStop]) {
+            break;
+        } else {
+            date = dateNew;
+        }
     }
     self.privateDays = daysList;
 }

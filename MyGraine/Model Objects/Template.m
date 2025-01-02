@@ -23,13 +23,21 @@
 
 - (void)createLists
 {
-    // The below will create bare lists -- subclasses need to override this method
-    // to establish the lists particular to their specific "template"
-    self.triggersList = [[NSMutableArray alloc] init];
-    self.preventionMedicinesList = [[NSMutableArray alloc] init];
-    self.preventionBehaviorsList = [[NSMutableArray alloc] init];
-    self.symptomsList = [[NSMutableArray alloc] init];
-    self.acuteMedicinesList = [[NSMutableArray alloc] init];
+    // Subclasses need to override this method to establish the lists particular to their specific "template"
+
+    // Cell types:
+    //    bool -- "Label and Button" cell type; contains a label and a checkbox.
+    //    medicine -- "Label and Button" cell type; contains a composite custom label and a checkbox.
+    //    tracker -- "Label and Three Buttons" cell type; contains a label and three checkboxes.
+    //    picker -- "Label and Picker" cell type; contains a label and a picker.
+    
+    // The below will create bare lists
+    self.triggersList = [[NSArray alloc] init];
+    self.preventionMedicinesList = [[NSArray alloc] init];
+    self.preventionBehaviorsList = [[NSArray alloc] init];
+    self.painList = [[NSArray alloc] init];
+    self.symptomsList = [[NSArray alloc] init];
+    self.acuteMedicinesList = [[NSArray alloc] init];
 }
 
 @end

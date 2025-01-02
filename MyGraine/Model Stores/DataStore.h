@@ -11,6 +11,6 @@
 
 @property (nonatomic, readonly) NSArray *months;
 
-- (instancetype)initWithDate:(NSDate *)date;
+- (void)initializeForDate:(NSDate *)date;
 
 @end

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyGTableViewController.h"
 
-@interface HeadacheDetailTableViewController : UITableViewController
+@interface HeadacheDetailTableViewController : MyGTableViewController
 
 @property (nonatomic) BOOL headache;
 

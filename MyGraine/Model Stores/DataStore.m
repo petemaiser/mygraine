@@ -14,17 +14,13 @@
 
 @implementation DataStore
 
-- (instancetype)initWithDate:(NSDate *)date;
+- (void)initializeForDate:(NSDate *)date;
 {
-    self = [super init];
-    
     if (self) {
         Month *month = [[Month alloc] initWithDate:date];
         NSArray *monthsList = [[NSArray alloc] initWithObjects:month, nil];
         self.privateMonths = monthsList;
     }
-    
-    return self;
 }
 
 - (NSArray *)months

@@ -7,23 +7,17 @@
 //
 
 #import "DailyRoutineTableViewController.h"
-#import "AppDelegate.h"
-#import "LabelButtonTableViewCell.h"
+#import "DailyRoutineTableViewCell.h"
 
 @interface DailyRoutineTableViewController ()
-    @property (weak, nonatomic) SettingsStore *settings;
-    @property (weak, nonatomic) DataStore *data;
+
 @end
 
 @implementation DailyRoutineTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    self.settings = appDelegate.settingsStore;
-    self.data = appDelegate.dataStore;
-    
+        
     UINib *nib1 = [UINib nibWithNibName:@"LabelButtonTableViewCell" bundle:nil];
     [self.tableView registerNib:nib1 forCellReuseIdentifier:@"LabelButtonTableViewCell"];
 }
@@ -41,10 +35,17 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    if (section == 0) {
-        return 1;
-    } else {
-        return 2;
+    switch (section) {
+        case 0:
+            return 1;
+        case 1:
+            return [self.template.triggersList count];
+        case 2:
+            return [self.template.preventionMedicinesList count];
+        case 3:
+            return [self.template.preventionBehaviorsList count];
+        default:
+            return 0;
     }
 }
 
@@ -66,23 +67,47 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSString *cellIdentifier = @"";
-    switch (indexPath.section) {
+    Month *month = self.data.months[0];
+    Day *day = month.days[0];
+    
+    if (indexPath.section == 0) {
+        DailyRoutineTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"DailyRoutineTableViewCell" forIndexPath:indexPath];
+        NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+        [dateFormatter setDateStyle:NSDateFormatterMediumStyle];
+        [dateFormatter setTimeStyle:NSDateFormatterNoStyle];
+        cell.DateLabel.text = [dateFormatter stringFromDate:day.date];
+        return (cell);
+    } else {
+        MyGTableViewCell *cell = nil;
+        NSArray *list = nil;
+    
+        switch (indexPath.section) {
         case 0:
-            cellIdentifier = @"DailyRoutineTableViewCell";
             break;
         case 1:
-            cellIdentifier = @"LabelButtonTableViewCell";
+            list = self.template.triggersList;
             break;
         case 2:
-            cellIdentifier = @"LabelButtonTableViewCell";
+            list = self.template.preventionMedicinesList;
+            break;
+        case 3:
+            list = self.template.preventionBehaviorsList;
             break;
         default:
-            cellIdentifier = @"LabelButtonTableViewCell";
             break;
+        }
+        
+        // Identify the correct template, and create the cell
+        NSDictionary *templateDictionary = list[indexPath.row];
+        cell = [tableView dequeueReusableCellWithIdentifier:templateDictionary[@"cellIdentifier"] forIndexPath:indexPath];
+        
+        // Link the correct data store dictionary to the cell
+        // ...need to change the triggers Dictionary into a Triggers List?
+        cell.templateDictionary = templateDictionary;
+        cell.dataDictionary = day.triggersDictionary;
+     
+        return cell;
     }
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
-    return cell;
 }
 
 /*

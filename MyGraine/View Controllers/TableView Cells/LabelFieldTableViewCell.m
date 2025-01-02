@@ -21,4 +21,15 @@
     // Configure the view for the selected state
 }
 
+- (void)setTemplateDictionary:(NSDictionary *)templateDictionary
+{
+    super.templateDictionary = templateDictionary;
+    NSString *label = templateDictionary[@"label"];
+    if ( (!label) ||
+        ([label isEqualToString:@""]) )  {
+        label = @"[setup in settings]";
+    }
+    self.label.text = label;
+}
+
 @end

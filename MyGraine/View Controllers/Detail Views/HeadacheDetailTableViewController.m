@@ -26,6 +26,9 @@
     UINib *nib2 = [UINib nibWithNibName:@"LabelThreeButtonTableViewCell" bundle:nil];
     [self.tableView registerNib:nib2 forCellReuseIdentifier:@"LabelThreeButtonTableViewCell"];
     
+    UINib *nib4 = [UINib nibWithNibName:@"LabelPickerTableViewCell" bundle:nil];
+    [self.tableView registerNib:nib4 forCellReuseIdentifier:@"LabelPickerTableViewCell"];
+    
     if (!self.headache) {
         UIBarButtonItem *cancelButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(cancel:)];
         self.navigationItem.leftBarButtonItem = cancelButton;
@@ -47,10 +50,17 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    if (section == 0) {
-        return 1;
-    } else {
-        return 2;
+    switch (section) {
+        case 0:
+            return 1;
+        case 1:
+            return [self.template.painList count];
+        case 2:
+            return [self.template.symptomsList count];
+        case 3:
+            return [self.template.acuteMedicinesList count];
+        default:
+            return 0;
     }
 }
 
@@ -73,28 +83,67 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSString *cellIdentifier = @"";
-    switch (indexPath.section) {
-        case 0:
-            cellIdentifier = @"HeadacheTableViewCell";
-            break;
-        case 1:
-            cellIdentifier = @"LabelThreeButtonTableViewCell";
-            break;
-        case 2:
-            cellIdentifier = @"LabelButtonTableViewCell";
-            break;
-        case 3:
-            cellIdentifier = @"LabelButtonTableViewCell";
-            break;
-        default:
-            cellIdentifier = @"HeadacheTableViewCell";
-            break;
+    if (indexPath.section == 0) {
+        HeadacheTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HeadacheTableViewCell" forIndexPath:indexPath];
+        return (cell);
+    } else {
+        Month *month = self.data.months[0];
+        Day *day = month.days[0];
+    
+        MyGTableViewCell *cell = nil;
+        NSArray *list = nil;
+    
+        switch (indexPath.section) {
+            case 0:
+                break;
+            case 1:
+                list = self.template.painList;
+                break;
+            case 2:
+                list = self.template.symptomsList;
+                break;
+            case 3:
+                list = self.template.acuteMedicinesList;
+                break;
+            default:
+                break;
+        }
+        
+        // Identify the correct template, and create the cell
+        NSDictionary *templateDictionary = list[indexPath.row];
+        cell = [tableView dequeueReusableCellWithIdentifier:templateDictionary[@"cellIdentifier"] forIndexPath:indexPath];
+        
+        // Link the correct data store dictionary to the cell
+        // ...need to change the triggers Dictionary into a Triggers List?
+        cell.templateDictionary = templateDictionary;
+        cell.dataDictionary = day.triggersDictionary;
+        
+        return cell;
     }
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
-    return cell;
     
+//...TODO remove the below
     
+//    NSString *cellIdentifier = @"";
+//    switch (indexPath.section) {
+//        case 0:
+//            cellIdentifier = @"HeadacheTableViewCell";
+//            break;
+//        case 1:
+//            cellIdentifier = @"LabelThreeButtonTableViewCell";
+//            break;
+//        case 2:
+//            cellIdentifier = @"LabelButtonTableViewCell";
+//            break;
+//        case 3:
+//            cellIdentifier = @"LabelButtonTableViewCell";
+//            break;
+//        default:
+//            cellIdentifier = @"HeadacheTableViewCell";
+//            break;
+//    }
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
+//    return cell;
+
 }
 
 

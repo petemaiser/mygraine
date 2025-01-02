@@ -6,6 +6,7 @@
 //
 
 #import "SettingsStore.h"
+#import "Template.h"
 #import "TemplateMeadowbrook.h"
 
 
@@ -20,7 +21,7 @@
     self = [super init];
     
     if (self) {
-        self.chosenTemplateName = @"";
+        self.chosenTemplateName = @"Meadowbrook";
         self.privateTemplates = [self createTemplatesList];
     }
 
@@ -30,6 +31,16 @@
 - (NSArray *)templates
 {
     return self.privateTemplates;
+}
+
+- (Template *)currentTemplate
+{
+    for (Template *ct in self.templates) {
+        if ([self.chosenTemplateName isEqualToString:ct.templateName]) {
+            return ct;
+        }
+    }
+    return nil;
 }
 
 - (NSArray *)createTemplatesList

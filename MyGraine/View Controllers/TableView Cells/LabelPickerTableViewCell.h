@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyGTableViewCell.h"
 
-@interface LabelPickerTableViewCell : UITableViewCell
+@interface LabelPickerTableViewCell : MyGTableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *label;
 @property (weak, nonatomic) IBOutlet UIPickerView *picker;
 

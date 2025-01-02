@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyGTableViewController.h"
 
-@interface SettingsTableViewController : UITableViewController
+@interface SettingsTableViewController : MyGTableViewController
 
 @end

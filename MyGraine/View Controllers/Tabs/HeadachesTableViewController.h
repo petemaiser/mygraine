@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyGTableViewController.h"
 
-@interface HeadachesTableViewController : UITableViewController
+@interface HeadachesTableViewController : MyGTableViewController
 
 @end

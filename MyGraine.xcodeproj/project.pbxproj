@@ -16,11 +16,13 @@
 		B531BCC2202696740072E57E /* TemplateMeadowbrook.m in Sources */ = {isa = PBXBuildFile; fileRef = B531BCC1202696740072E57E /* TemplateMeadowbrook.m */; };
 		B53E32AC1FFB037900681170 /* DailyRoutineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E32AB1FFB037900681170 /* DailyRoutineTableViewController.m */; };
 		B53E32B51FFB044100681170 /* ReportsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E32B41FFB044100681170 /* ReportsTableViewController.m */; };
+		B53EE31A207AFCE9000A95A2 /* MyGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B53EE319207AFCE9000A95A2 /* MyGTableViewCell.m */; };
 		B55F45AE1FFC8799000A68C1 /* HeadacheDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55F45AD1FFC8799000A68C1 /* HeadacheDetailTableViewController.m */; };
 		B55F45B91FFC8953000A68C1 /* ReportDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55F45B81FFC8953000A68C1 /* ReportDetailTableViewController.m */; };
 		B55F45BC1FFC89BB000A68C1 /* HeadacheHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55F45BB1FFC89BB000A68C1 /* HeadacheHelpViewController.m */; };
 		B57C52712002961000ED1F40 /* HeadachesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57C52702002961000ED1F40 /* HeadachesTableViewController.m */; };
 		B57C5274200297B300ED1F40 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57C5273200297B300ED1F40 /* SettingsTableViewController.m */; };
+		B586068D2045008300569C5F /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B586068C2045008300569C5F /* Mantle.framework */; };
 		B59B5B451FFAA30E0069F46E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B59B5B441FFAA30E0069F46E /* AppDelegate.m */; };
 		B59B5B4E1FFAA30E0069F46E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59B5B4C1FFAA30E0069F46E /* Main.storyboard */; };
 		B59B5B501FFAA30E0069F46E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59B5B4F1FFAA30E0069F46E /* Assets.xcassets */; };
@@ -28,7 +30,7 @@
 		B59B5B561FFAA30E0069F46E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B59B5B551FFAA30E0069F46E /* main.m */; };
 		B59B5B5E1FFAA3330069F46E /* README in Resources */ = {isa = PBXBuildFile; fileRef = B59B5B5C1FFAA3320069F46E /* README */; };
 		B59B5B5F1FFAA3330069F46E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B59B5B5D1FFAA3320069F46E /* LICENSE */; };
-		B5E4711A2045028D005BA47A /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E471192045028D005BA47A /* Mantle.framework */; };
+		B5DA543E20F2B6D8009E8012 /* MyGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DA543D20F2B6D8009E8012 /* MyGTableViewController.m */; };
 		B5E720A3202F987600842064 /* LabelButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5E720A2202F987600842064 /* LabelButtonTableViewCell.xib */; };
 		B5E720A8202FA11400842064 /* DailyRoutineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E720A7202FA11400842064 /* DailyRoutineTableViewCell.m */; };
 		B5E720AB202FA20800842064 /* HeadachesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E720AA202FA20800842064 /* HeadachesTableViewCell.m */; };
@@ -43,6 +45,7 @@
 		B5E720C3202FA93800842064 /* LabelFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5E720C1202FA93800842064 /* LabelFieldTableViewCell.xib */; };
 		B5E720C7202FA97100842064 /* LabelSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E720C5202FA97100842064 /* LabelSwitchTableViewCell.m */; };
 		B5E720C8202FA97100842064 /* LabelSwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5E720C6202FA97100842064 /* LabelSwitchTableViewCell.xib */; };
+		B5FC3A5020B97C1B00923B06 /* log28.png in Resources */ = {isa = PBXBuildFile; fileRef = B5FC3A4F20B97C1A00923B06 /* log28.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -77,6 +80,8 @@
 		B53E32AB1FFB037900681170 /* DailyRoutineTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyRoutineTableViewController.m; sourceTree = "<group>"; };
 		B53E32B31FFB044100681170 /* ReportsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportsTableViewController.h; sourceTree = "<group>"; };
 		B53E32B41FFB044100681170 /* ReportsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReportsTableViewController.m; sourceTree = "<group>"; };
+		B53EE318207AFCE9000A95A2 /* MyGTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyGTableViewCell.h; sourceTree = "<group>"; };
+		B53EE319207AFCE9000A95A2 /* MyGTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGTableViewCell.m; sourceTree = "<group>"; };
 		B55F45AC1FFC8799000A68C1 /* HeadacheDetailTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadacheDetailTableViewController.h; sourceTree = "<group>"; };
 		B55F45AD1FFC8799000A68C1 /* HeadacheDetailTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadacheDetailTableViewController.m; sourceTree = "<group>"; };
 		B55F45B71FFC8953000A68C1 /* ReportDetailTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportDetailTableViewController.h; sourceTree = "<group>"; };
@@ -87,6 +92,7 @@
 		B57C52702002961000ED1F40 /* HeadachesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadachesTableViewController.m; sourceTree = "<group>"; };
 		B57C5272200297B300ED1F40 /* SettingsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
 		B57C5273200297B300ED1F40 /* SettingsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		B586068C2045008300569C5F /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mantle.framework; path = Carthage/Build/iOS/Mantle.framework; sourceTree = "<group>"; };
 		B59B5B401FFAA30E0069F46E /* MyGraine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGraine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59B5B431FFAA30E0069F46E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B59B5B441FFAA30E0069F46E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -97,7 +103,8 @@
 		B59B5B551FFAA30E0069F46E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B59B5B5C1FFAA3320069F46E /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		B59B5B5D1FFAA3320069F46E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		B5E471192045028D005BA47A /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mantle.framework; path = Carthage/Build/iOS/Mantle.framework; sourceTree = "<group>"; };
+		B5DA543C20F2B6D8009E8012 /* MyGTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyGTableViewController.h; sourceTree = "<group>"; };
+		B5DA543D20F2B6D8009E8012 /* MyGTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGTableViewController.m; sourceTree = "<group>"; };
 		B5E720A2202F987600842064 /* LabelButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelButtonTableViewCell.xib; sourceTree = "<group>"; };
 		B5E720A6202FA11400842064 /* DailyRoutineTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DailyRoutineTableViewCell.h; sourceTree = "<group>"; };
 		B5E720A7202FA11400842064 /* DailyRoutineTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyRoutineTableViewCell.m; sourceTree = "<group>"; };
@@ -121,6 +128,7 @@
 		B5E720C4202FA97100842064 /* LabelSwitchTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelSwitchTableViewCell.h; sourceTree = "<group>"; };
 		B5E720C5202FA97100842064 /* LabelSwitchTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelSwitchTableViewCell.m; sourceTree = "<group>"; };
 		B5E720C6202FA97100842064 /* LabelSwitchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelSwitchTableViewCell.xib; sourceTree = "<group>"; };
+		B5FC3A4F20B97C1A00923B06 /* log28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = log28.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5E4711A2045028D005BA47A /* Mantle.framework in Frameworks */,
+				B586068D2045008300569C5F /* Mantle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +166,8 @@
 				B5E720AD202FA29100842064 /* HeadacheTableViewCell.m */,
 				B5E720AF202FA44C00842064 /* ReportsTableViewCell.h */,
 				B5E720B0202FA44C00842064 /* ReportsTableViewCell.m */,
+				B53EE318207AFCE9000A95A2 /* MyGTableViewCell.h */,
+				B53EE319207AFCE9000A95A2 /* MyGTableViewCell.m */,
 				B5E720B7202FA7C100842064 /* LabelButtonTableViewCell.h */,
 				B5E720B8202FA7C100842064 /* LabelButtonTableViewCell.m */,
 				B5E720A2202F987600842064 /* LabelButtonTableViewCell.xib */,
@@ -180,6 +190,8 @@
 		B55F45AF1FFC87AB000A68C1 /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
+				B5DA543C20F2B6D8009E8012 /* MyGTableViewController.h */,
+				B5DA543D20F2B6D8009E8012 /* MyGTableViewController.m */,
 				B53E32AA1FFB037900681170 /* DailyRoutineTableViewController.h */,
 				B53E32AB1FFB037900681170 /* DailyRoutineTableViewController.m */,
 				B57C526F2002961000ED1F40 /* HeadachesTableViewController.h */,
@@ -205,6 +217,14 @@
 			path = "Detail Views";
 			sourceTree = "<group>";
 		};
+		B586068B2045008300569C5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B586068C2045008300569C5F /* Mantle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B59B5B371FFAA30E0069F46E = {
 			isa = PBXGroup;
 			children = (
@@ -212,7 +232,7 @@
 				B59B5B5C1FFAA3320069F46E /* README */,
 				B59B5B421FFAA30E0069F46E /* MyGraine */,
 				B59B5B411FFAA30E0069F46E /* Products */,
-				B5E471182045028C005BA47A /* Frameworks */,
+				B586068B2045008300569C5F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -246,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				B59B5B551FFAA30E0069F46E /* main.m */,
+				B5FC3A4F20B97C1A00923B06 /* log28.png */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -284,14 +305,6 @@
 			path = "Model Objects Custom";
 			sourceTree = "<group>";
 		};
-		B5E471182045028C005BA47A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B5E471192045028D005BA47A /* Mantle.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -303,7 +316,7 @@
 				B59B5B3D1FFAA30E0069F46E /* Frameworks */,
 				B59B5B3E1FFAA30E0069F46E /* Resources */,
 				B59B60851FFAA78F0069F46E /* Embed Frameworks */,
-				B5E4711B2045029E005BA47A /* ShellScript */,
+				B586068E204500C200569C5F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -320,7 +333,7 @@
 		B59B5B381FFAA30E0069F46E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Pete Maiser";
 				TargetAttributes = {
 					B59B5B3F1FFAA30E0069F46E = {
@@ -357,6 +370,7 @@
 				B59B5B531FFAA30E0069F46E /* LaunchScreen.storyboard in Resources */,
 				B5E720BE202FA8B000842064 /* LabelThreeButtonTableViewCell.xib in Resources */,
 				B5E720C8202FA97100842064 /* LabelSwitchTableViewCell.xib in Resources */,
+				B5FC3A5020B97C1B00923B06 /* log28.png in Resources */,
 				B59B5B501FFAA30E0069F46E /* Assets.xcassets in Resources */,
 				B59B5B4E1FFAA30E0069F46E /* Main.storyboard in Resources */,
 				B5E720C3202FA93800842064 /* LabelFieldTableViewCell.xib in Resources */,
@@ -368,7 +382,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B5E4711B2045029E005BA47A /* ShellScript */ = {
+		B586068E204500C200569C5F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -399,11 +413,13 @@
 				B5E720B9202FA7C100842064 /* LabelButtonTableViewCell.m in Sources */,
 				B531BCB0202694350072E57E /* MyGModel.m in Sources */,
 				B59B5B451FFAA30E0069F46E /* AppDelegate.m in Sources */,
+				B5DA543E20F2B6D8009E8012 /* MyGTableViewController.m in Sources */,
 				B5E720C2202FA93800842064 /* LabelFieldTableViewCell.m in Sources */,
 				B531BCB1202694350072E57E /* DataStore.m in Sources */,
 				B5E720BD202FA8B000842064 /* LabelThreeButtonTableViewCell.m in Sources */,
 				B5E720AE202FA29100842064 /* HeadacheTableViewCell.m in Sources */,
 				B59B5B561FFAA30E0069F46E /* main.m in Sources */,
+				B53EE31A207AFCE9000A95A2 /* MyGTableViewCell.m in Sources */,
 				B55F45AE1FFC8799000A68C1 /* HeadacheDetailTableViewController.m in Sources */,
 				B531BCB5202694890072E57E /* Month.m in Sources */,
 				B531BCB2202694350072E57E /* SettingsStore.m in Sources */,
@@ -455,6 +471,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -462,6 +479,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -511,6 +529,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -518,6 +537,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

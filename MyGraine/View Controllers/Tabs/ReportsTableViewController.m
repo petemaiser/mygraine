@@ -7,23 +7,17 @@
 //
 
 #import "ReportsTableViewController.h"
-#import "AppDelegate.h"
 #import "ReportDetailTableViewController.h"
 #import "ReportsTableViewCell.h"
 
 @interface ReportsTableViewController ()
-    @property (weak, nonatomic) SettingsStore *settings;
-    @property (weak, nonatomic) DataStore *data;
+
 @end
 
 @implementation ReportsTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    self.settings = appDelegate.settingsStore;
-    self.data = appDelegate.dataStore;
     
     // Uncomment the following line to preserve selection between presentations.
     self.clearsSelectionOnViewWillAppear = NO;

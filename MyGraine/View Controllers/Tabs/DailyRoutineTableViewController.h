@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyGTableViewController.h"
 
-@interface DailyRoutineTableViewController : UITableViewController
+@interface DailyRoutineTableViewController : MyGTableViewController
 
 @end

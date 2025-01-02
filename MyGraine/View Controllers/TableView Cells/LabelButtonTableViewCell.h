@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyGTableViewCell.h"
 
-@interface LabelButtonTableViewCell : UITableViewCell
+@interface LabelButtonTableViewCell : MyGTableViewCell
+
 @property (weak, nonatomic) IBOutlet UILabel *label;
 @property (weak, nonatomic) IBOutlet UIButton *button;
 

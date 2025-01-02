@@ -13,11 +13,12 @@
 @property (nonatomic, readonly) NSString *templateName;
 @property (nonatomic, readonly) NSURL *googleTemplate;
 
-@property (nonatomic) NSMutableArray *triggersList;
-@property (nonatomic) NSMutableArray *preventionMedicinesList;
-@property (nonatomic) NSMutableArray *preventionBehaviorsList;
-@property (nonatomic) NSMutableArray *symptomsList;
-@property (nonatomic) NSMutableArray *acuteMedicinesList;
+@property (nonatomic) NSArray *triggersList;
+@property (nonatomic) NSArray *preventionMedicinesList;
+@property (nonatomic) NSArray *preventionBehaviorsList;
+@property (nonatomic) NSArray *painList;
+@property (nonatomic) NSArray *symptomsList;
+@property (nonatomic) NSArray *acuteMedicinesList;
 
 - (void)createLists;
 

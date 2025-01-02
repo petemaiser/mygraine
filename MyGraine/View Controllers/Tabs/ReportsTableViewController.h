@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyGTableViewController.h"
 
-@interface ReportsTableViewController : UITableViewController
+@interface ReportsTableViewController : MyGTableViewController
 
 @end

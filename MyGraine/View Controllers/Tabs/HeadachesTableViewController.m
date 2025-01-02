@@ -8,22 +8,19 @@
 
 #import "HeadachesTableViewController.h"
 #import "AppDelegate.h"
+#import "SettingsStore.h"
+#import "DataStore.h"
 #import "HeadacheDetailTableViewController.h"
 #import "HeadachesTableViewCell.h"
 
 @interface HeadachesTableViewController ()
-    @property (weak, nonatomic) SettingsStore *settings;
-    @property (weak, nonatomic) DataStore *data;
+
 @end
 
 @implementation HeadachesTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    self.settings = appDelegate.settingsStore;
-    self.data = appDelegate.dataStore;
     
     // Uncomment the following line to preserve selection between presentations.
     self.clearsSelectionOnViewWillAppear = NO;

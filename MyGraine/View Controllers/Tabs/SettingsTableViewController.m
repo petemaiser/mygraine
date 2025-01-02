@@ -7,22 +7,16 @@
 //
 
 #import "SettingsTableViewController.h"
-#import "AppDelegate.h"
 
 @interface SettingsTableViewController ()
-    @property (weak, nonatomic) SettingsStore *settings;
-    @property (weak, nonatomic) DataStore *data;
+
 @end
 
 @implementation SettingsTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    self.settings = appDelegate.settingsStore;
-    self.data = appDelegate.dataStore;
-    
+        
     UINib *nib3 = [UINib nibWithNibName:@"LabelFieldTableViewCell" bundle:nil];
     [self.tableView registerNib:nib3 forCellReuseIdentifier:@"LabelFieldTableViewCell"];
 

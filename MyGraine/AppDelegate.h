@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SettingsStore.h"
-#import "DataStore.h"
+@class SettingsStore;
+@class DataStore;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
